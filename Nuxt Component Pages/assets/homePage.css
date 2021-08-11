@@ -1,0 +1,146 @@
+
+div.availableItemsSection{
+	position:absolute;
+	top:60px;
+	width:33%;
+	bottom:50%;
+	left:0.5%;
+	border-style:solid;
+	border-color:#ff13ec;
+	border-width:1px;
+	border-radius:5px;
+	padding:5px;
+	overflow:auto;
+	background-color:#d9c2d7;
+	margin:5px;
+	
+}
+
+div.linkSummarySection{
+	position:absolute;
+	left:34%;
+	right:34%;
+	top:60px;
+	bottom:50%;
+	border-style:solid;
+	border-color:#ff13ec;
+	border-width:1px;
+	border-radius:5px;
+	padding:5px;
+	overflow:auto;
+	background-color:#d9c2d7;
+	margin:5px;
+}
+
+div.overallWordSection{
+	position:absolute;
+	width:33%;
+	right:0.5%;
+	top:60px;
+	bottom:50%;
+	border-style:solid;
+	border-color:#ff13ec;
+	border-width:1px;
+	border-radius:5px;
+	padding:5px;
+	overflow:auto;
+	background-color:#d9c2d7;
+	margin:5px;
+}
+
+div.chartBottomSection{
+	position:absolute;
+	left:0.5%;
+	right:0.5%;
+	top:50.5%;
+	bottom:0.5%;
+	border-style:solid;
+	border-color:#ff13ec;
+	border-width:1px;
+	border-radius:5px;
+	padding:5px;
+	overflow:hidden;
+	background-color:#d9c2d7;
+	margin:5px;
+}
+
+div.itemHeading{
+	text-align:center;
+	font-size:1.1em;
+}
+
+div.addItemSection{
+	position:absolute;
+	top:0px;
+	width:600px;
+	height:50px;
+	left:0px;
+	margin:5px;
+	display:grid;
+	grid-template-columns: 20% 60% 20%;
+	margin-left:5px;
+	border-radius:5px;
+	background-color:#d9c2d7;
+	padding:5px;
+	font-size:1.2em;
+}
+
+div.homeContentSection{
+	position:absolute;
+	left:620px;
+	right:0px;
+	top:0px;
+	height:50px;
+	font-size:1.25em;
+	text-align:center;
+	padding:5px;
+	background-color:#d9c2d7;
+	margin:5px;
+}
+
+input.addItemInput{
+	width:200px;
+}
+
+div.availableItemsSection div.linkItem{
+	text-align:center;
+	font-size:1.1em;
+	color:#5b0154;
+	cursor:pointer;
+}
+div.availableItemsSection div.linkItem > a{
+	color:#5b0154
+}
+	
+
+div.linkSummarySection div.summaryItem{
+	text-align:center;
+	font-size:1.1em;
+	display:grid;
+	grid-template-columns: 33% 33% 34%;
+}
+
+div.overallWordSection div.summaryItem{
+	text-align:center;
+	font-size:1.1em;
+	display:grid;
+	grid-template-columns: 66% 34%;
+}
+
+div.linkSummarySection div.summaryItemHeading{
+	text-align:center;
+	font-size:1.1em;
+	display:grid;
+	grid-template-columns: 33% 33% 34%;
+	font-weight:700;
+}
+
+div.overallWordSection div.summaryItemHeading{
+	text-align:center;
+	font-size:1.1em;
+	display:grid;
+	grid-template-columns: 66% 34%;
+	font-weight:700;
+	
+}
+

@@ -1,0 +1,112 @@
+
+div.showDetailSummary{
+	text-align:center;
+	position:absolute;
+	top:0px;
+	height:40px;
+	left:0px;
+	right:0px;
+	font-size:1.25em;
+	border-style:solid;
+	border-color:#ff13ec;
+	border-width:1px;
+	border-radius:5px;
+	padding:5px;
+	overflow:auto;
+	background-color:#d9c2d7;
+	margin:5px;
+}
+
+
+div.detailPageSummary{
+	position:absolute;
+	left:0px;
+	top:49.5%;
+	width:49.5%;
+	bottom:0px;
+	border-radius:5px;
+	border-width:1px;
+	border-color:#ff13ec;
+	border-style:solid;
+	overflow-y:auto;
+	overflow-x:auto;
+	border-style:solid;
+	border-color:#ff13ec;
+	border-width:1px;
+	border-radius:5px;
+	padding:5px;
+	overflow:auto;
+	background-color:#d9c2d7;
+	margin:5px;
+	
+}
+
+div.detailPageSummary div.summaryWord{
+	display:grid;
+	grid-template-columns:75% 25%;
+}
+
+div.detailPageSummary div.linkWord{
+	display:grid;
+	grid-template-columns:100%;
+}
+
+div.summaryHeading{
+	font-size:1.1em;
+	font-weight:700;
+	text-align:center;
+}
+
+div.detailPageSummary div.summaryHeading > div,
+div.detailPageSummary div.summaryWord >div{
+	text-align:center;
+	margin:3px;
+}
+
+div.linkPageSummary{
+	position:absolute;
+	right:0.5%;
+	width:49.5%;
+	top:50%;
+	bottom:0.5%;
+	border-radius:5px;
+	border-width:1px;
+	border-color:lightgray;
+	border-style:solid;
+	overflow-y:auto;
+	overflow-x:auto;
+	background-color:#d9c2d7;
+	border-color:#ff13ec;
+}
+
+div.linkPageSummary div.linkItem{
+	text-align:center;
+}
+
+div.wordSummaryChart{
+	position:absolute;
+	top:50px;
+	bottom:50.5%;
+	left:0.5%;
+	right:0.5%;
+	border-radius:5px;
+	border-width:1px;
+	border-color:lightgray;
+	border-style:solid;
+	overflow-y:auto;
+	overflow-x:auto;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#d9c2d7;
+	border-color:#ff13ec;
+}
+
+div.linkItem{
+	color:#5b0154;
+	cursor:pointer;
+}
+div.linkItem:hover{
+	background-color:#74386f;
+	border-radius:5px;
+	color:#d9c2d7;
+}
